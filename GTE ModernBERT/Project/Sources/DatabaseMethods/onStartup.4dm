@@ -60,7 +60,7 @@ var $port : Integer
 $port:=8080
 $options:={\
 embeddings: True:C214; \
-pooling: "mean"; \
+pooling: "cls"; \
 log_file: $logFile; \
 ctx_size: $batch_size*$batches*$threads; \
 batch_size: $batch_size*$batches; \
@@ -86,7 +86,7 @@ use int8 quantisation
 
 $homeFolder:=Folder:C1567(fk home folder:K87:24).folder(".ONNX")
 $port:=8081
-$options:={pooling: "mean"}
+$options:={pooling: "cls"}
 
 $folder:=$homeFolder.folder("GTE ModernBERT")
 $path:="gte-modernbert-base-onnx-int8"
