@@ -1,0 +1,3 @@
+GTE ModernBERT/Data/*
+GTE ModernBERT/Project/DerivedData/*
+GTE ModernBERT/userPreferences.*
