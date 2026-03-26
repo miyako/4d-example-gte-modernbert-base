@@ -1,2 +1,1 @@
-# 4d-example-gte-modernbert-base
-GTE ModernBERT in GGUF, ONNX
+## [Alibaba-NLP/gte-modernbert-base](https://huggingface.co/Alibaba-NLP/gte-modernbert-base)
